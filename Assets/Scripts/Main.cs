@@ -7,7 +7,9 @@ using UnityEngine;
 public class Main : MonoBehaviour
 {
     private readonly Type[] singletonsToLoad =
-    {};
+    {
+        typeof(PlayerInput)
+    };
     public static Main instance
     {
         get
